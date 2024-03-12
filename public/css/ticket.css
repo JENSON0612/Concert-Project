@@ -1,0 +1,147 @@
+
+.ticketSection2{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+.ticketSection2Photo{
+    display: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.ticketSection2Photo img{
+    border-radius: 25px;
+    width: 1000px;
+    margin-left: 270px;
+    border: 2px solid white;
+    border-radius: 25px;
+}
+
+.ticketSection2Photo h3{
+    color: black;
+    font-weight: bold;
+    background: white;
+    box-shadow: 0 0 0px white,
+                0 0 10px white,
+                0 0 15px white,
+                0 0 25px white;
+    border-radius: 25px;
+    width: 250px;
+    margin-left: 650px;
+    margin-top: 50px;
+}
+
+.ticketSection2Photo p{
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.ticketSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+.ticketSectionContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 0 0px white,
+                0 0 10px white,
+                0 0 15px white,
+                0 0 25px white;
+    border-radius: 25px;
+    height: 400px;
+    width: 1090px;
+    -webkit-box-reflect:below 1px linear-gradient(transparent, rgba(121, 121, 121, 0.301));
+}
+
+#tksc1,#tksc2,#tksc3{
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+}
+
+#tksc1{
+    margin-top: -150px;
+    margin-left: 0px;
+}
+
+#tksc2{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#tksc3{
+    margin-top: 150px;
+    margin-left: 0px;
+    color: white;
+    background-color: black;
+    box-shadow: 0 0 0px black,
+                0 0 10px black,
+                0 0 15px black,
+                0 0 25px black;
+    width: 170px;
+    border-radius: 25px;
+}
+
+.ticketSectionContent2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+}
+
+.ticketSectionContent2 img{
+    height: 400px;
+    margin-left: 210px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+
+.ticketSection3{
+    height: 120vh;
+    font-weight: 100vw;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    padding-top: 150px;
+}
+
+.ttSc3Content img{
+    width: 800px;
+    border-radius: 25px;
+    margin-left: 50px;
+}
+
+.ttsc3Content2 h3{
+    color: white;
+    font-weight: bold;
+}
+
+#ticketYou{
+    color: black;
+    background-color: white;
+    box-shadow: 0 0 0px white,
+                0 0 10px white,
+                0 0 15px white,
+                0 0 25px white;
+    border-radius: 25px;
+    width: 150px;
+    margin-left: 310px;
+}

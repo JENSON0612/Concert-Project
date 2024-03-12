@@ -1,0 +1,67 @@
+.contactUsForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+.cufContent{
+    display: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    box-shadow: 0 0 0px white,
+                0 0 5px white,
+                0 0 10px white,
+                0 0 200px white;
+    -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+    border-radius: 25px;
+}
+
+.cufQuestion{
+    display: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.cufQuestion label{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.cufQuestion input{
+    width: 300px;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-bottom: 5px;
+    border:  2px solid white;
+    font-weight: bold;
+}
+
+.cufContent button{
+    color: black;
+    background-color: white;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 3px solid black;
+    width: 150px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+.cufContent button:hover{
+    background-color: black;
+    border: white;
+    color: white;   
+}

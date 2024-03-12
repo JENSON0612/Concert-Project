@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+
+}
+
+.seat-container {
+    display: grid;
+    grid-template-columns: repeat(5, 50px);
+    gap: 10px;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    margin-top: 50vh;
+    background-color: black;
+}
+
+.seat-container label input{
+    height: 400px;
+    width: 250px;
+}
+

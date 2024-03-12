@@ -1,0 +1,65 @@
+.paymentCard{
+    height: 100vh;
+    background-color: #181414;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.labellayout{
+    background: white;
+    color: #050801;
+    box-shadow: 0 0 0px white,
+                0 0 5px white,
+                0 0 10px white,
+                0 0 200px white;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+     border-radius: 25px;   
+    z-index: 0;
+    height: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 50px;
+    width: 400px;
+    margin-left: 30px;
+}
+
+.inputCard{
+    margin-bottom: 20px;
+}
+
+.inputCard label{
+    z-index: 1;
+    color: black;
+    font-weight: bold;
+}
+
+.inputCard input{
+    width: 300px;
+    border-radius: 25px;
+    border: 5px solid white;
+    z-index: 2;
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.labellayout button{
+    border: 3px solid black;
+    color: black;
+    border-radius: 25px;
+    width: 150px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: -30px;
+    font-weight: bold;
+}
+
+.labellayout button:hover{
+    background-color: black;
+    border: white;
+    color: white;   
+}

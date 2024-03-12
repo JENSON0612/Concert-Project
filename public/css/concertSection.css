@@ -1,0 +1,397 @@
+.section1{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.section1 img{
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    z-index: 0;
+    object-fit: cover;
+}
+
+.mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    background: linear-gradient(100deg, rgba(29, 28, 28, 0.63) 100%, rgba(29, 28, 28, 0.63) 100%);
+}
+
+.innerSection1{
+    cursor: default;
+    transition: 0.6s ease-in-out;
+
+}
+
+.innerSection1 h1{
+    color: white;
+    z-index: 2;
+    font-weight: bold;
+    margin-top: 300px;
+    margin-bottom: -300px;
+    margin-left: 50px;
+}
+
+.innerSection1 p{
+    color: white;
+    z-index: 2;
+    margin-top: 320px;
+    margin-bottom: -320px;
+    margin-left: 50px;
+}
+
+.innerSection1:hover{
+    transition: 0.6s ease-in-out;
+    margin-left: 20px;
+}
+
+
+
+.innerSection2{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    cursor: default;
+    padding-left: -150px;
+}
+
+.innerSection2 img{
+    width: 330px;
+    height: 330px;
+    border-radius: 250px;
+    margin-left: 960px;
+    z-index: 2;
+    border: 5px solid white;
+    overflow: hidden;
+}
+
+.innerSection2 h1{
+    width: 400px;
+    height: 400px;
+    margin-left: 1020px;
+    margin-top: 10px;
+    z-index: 2;
+    color: white;
+    font-weight: bold;
+}
+
+.section2{
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    z-index: 0;
+    background-color: rgb(24,20,20);
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    cursor: default;
+}
+
+.section2 img{
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    z-index: 0;
+    object-fit: cover;
+}
+
+.content2{
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    max-width: 100vw;
+    z-index: 1;
+}
+
+.content2 h1{
+    margin-top: -40px;
+}
+
+.content2 p{
+    margin-top: -10px;
+}
+
+.photoContainer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+ }
+
+
+
+.photo img{
+    border: 2px solid white;
+    border-radius: 25px;
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.photo h5{
+    margin-top: 20px;
+    margin-left: 0px;
+    font-weight: bold;
+}
+
+.photo-wrapper{
+    margin-left: 30px;
+}
+
+.photo:hover{
+    background: white;
+    color: #050801;
+    box-shadow: 0 0 0px white,
+                0 0 5px white,
+                0 0 10px white,
+                0 0 200px white;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+     border-radius: 25px;
+}
+
+.sectionChoosing{
+    background-color: #181414;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    margin-right: -270px;
+}
+.screen{
+    border: 2px solid white;
+    width: 350px;
+    height: 200px;
+    background-color: black;
+    margin-right: -990px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: default;
+    margin-left: 200px;
+    overflow: hidden;
+}
+
+.screen h3{
+    color: white;
+}
+
+.seatContainer {
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 230px;
+}
+
+.seat1, .seat2, .seat3 {
+    border: 2px solid white;
+    padding: 150px 200px;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    font-size: 40px;
+    cursor: default;
+    margin-right: -60px;
+    font-style: bold;
+    overflow: hidden;
+}
+
+.seat1{
+    margin-right: 20px;
+}
+
+.seat2{
+    margin-right: 20px;
+}
+
+
+
+.priceContainer{
+    display: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-left: -15px;
+}
+
+.priceContainer h5{
+    color: black;
+    background-color: white;
+    box-shadow: 0 0 0px white,
+                0 0 5px white,
+                0 0 10px white,
+                0 0 200px white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 25px;
+    margin-top: 10px;
+    width: 150px;
+}
+
+#seatPrice1{
+    margin-left: 125px;
+}
+
+#seatPrice2{
+    margin-left: 542px;
+    margin-top: -50px;
+}
+
+#seatPrice3{
+    margin-left: 970px;
+    margin-top: -50px;
+
+}
+
+.displaySelected{
+    background-color: #181414;
+    display: row;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-left: 520px;
+    height: 60vh;
+}
+
+.displaySelected p{
+    background-color: #181414;
+    font-weight: bold;
+    color: white;
+    box-shadow: 0 0 0px white,
+                0 0 10px white,
+                0 0 15px white,
+                0 0 25px white;
+    border-radius: 25px;
+    width: 350px;
+    padding-bottom: -50px;
+    padding-top: -50px;
+}
+
+
+
+.displaySelected select{
+    width: 320px;
+    background-color: #181414;
+    color: white;
+    border-radius: 25px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.displaySelected select:hover{
+    background-color: white;
+    color: black;
+}
+
+.displaySelected select option{
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+}
+
+.displaySelected select option:hover{
+    background-color: white;
+    color: black;
+}
+
+.displaySelected input{
+    background-color: #181414;
+    color: white;
+    font-weight: bold;
+    border-radius: 15px;
+    width: 340px;
+    text-align: center;
+    border: 2px solid #181414;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.displaySelected input:focus {
+    outline: none;
+    border: none;
+}
+
+.displaySelected input:hover{
+    border-radius: 250px;
+    background-color: white;
+    color: black;
+}
+
+.displaySelected h5{
+    color: white;
+    font-weight: bold;
+    margin-left: -520px;
+    margin-bottom: 20px;
+}
+
+.displaySelected a{
+    border: 2px solid white;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border-radius: 25px;
+    box-shadow: 0 0 0px white,
+                0 0 10px white,
+                0 0 15px white,
+                0 0 25px white;
+    margin-left: -580px;
+    margin-top: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.displaySelected button{
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    border-radius: 25px;
+    width: 350px;
+    box-shadow: 0 0 0px white,
+                0 0 10px white,
+                0 0 15px white,
+                0 0 25px white;
+    margin-left: -520px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
